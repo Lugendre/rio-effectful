@@ -4,6 +4,7 @@ module EIO (
   module EIO.Prelude,
   module EIO.Prelude.Display,
   module EIO.Prelude.Exit,
+  module EIO.Prelude.IORef,
   module EIO.Prelude.Lens,
   module EIO.Prelude.Trace,
   module EIO.Prelude.URef,
@@ -23,7 +24,6 @@ module EIO (
   module Path,
   module EIO.Deque,
   module UnliftIO.Exception,
-  module UnliftIO.IORef, -- TODO: Change Ref Effect
   module UnliftIO.Memoize, -- TODO: Change Memoized Effect
   EIO.Prelude.Renames.yieldThread,
 )
@@ -33,6 +33,7 @@ import EIO.Deque
 import EIO.Prelude
 import EIO.Prelude.Display
 import EIO.Prelude.Exit
+import EIO.Prelude.IORef
 import EIO.Prelude.Lens
 import EIO.Prelude.Renames
 import EIO.Prelude.Trace
@@ -52,5 +53,4 @@ import Effectful.Prim
 import Effectful.Timeout
 import Path
 import UnliftIO.Exception hiding (throwTo)
-import UnliftIO.IORef
 import UnliftIO.Memoize

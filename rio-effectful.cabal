@@ -71,6 +71,7 @@ library
       EIO.Prelude
       EIO.Prelude.Display
       EIO.Prelude.Exit
+      EIO.Prelude.IORef
       EIO.Prelude.Lens
       EIO.Prelude.Renames
       EIO.Prelude.Trace
