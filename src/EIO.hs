@@ -18,6 +18,7 @@ module EIO (
   module Effectful.Concurrent.STM,
   module Effectful.FileSystem.Path.IO,
   module Effectful.FileSystem.Path.IO.File,
+  module Effectful.Prim,
   module Effectful.Timeout,
   module Path,
   module EIO.Deque,
@@ -47,6 +48,7 @@ import Effectful.Concurrent.STM
 import Effectful.FileSystem.Path.IO
 import Effectful.FileSystem.Path.IO.File
 import Effectful.Log.Static
+import Effectful.Prim
 import Effectful.Timeout
 import Path
 import UnliftIO.Exception hiding (throwTo)

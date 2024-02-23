@@ -10,12 +10,10 @@ import RIO.Prelude hiding (
   local,
   runReader,
   runReaderT,
-  runST,
  )
 import RIO.Prelude.Types hiding (
   MonadReader,
   PrimMonad (PrimState),
   Reader,
   ReaderT (ReaderT),
-  ST,
  )

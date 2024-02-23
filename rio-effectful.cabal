@@ -34,6 +34,25 @@ library
       EIO.Char
       EIO.Char.Partial
       EIO.Deque
+      EIO.Effect.Concurrent.MVar.Strict
+      EIO.Effect.Dispatch.Dynamic
+      EIO.Effect.Dispatch.Static
+      EIO.Effect.Environment
+      EIO.Effect.Error.Dynamic
+      EIO.Effect.Error.Static
+      EIO.Effect.Fail
+      EIO.Effect.Labeled
+      EIO.Effect.NonDet
+      EIO.Effect.Provider
+      EIO.Effect.Reader.Dynamic
+      EIO.Effect.Reader.Static
+      EIO.Effect.State.Dynamic
+      EIO.Effect.State.Static.Local
+      EIO.Effect.State.Static.Shared
+      EIO.Effect.Temporary
+      EIO.Effect.Writer.Dynamic
+      EIO.Effect.Writer.Static.Local
+      EIO.Effect.Writer.Static.Shared
       EIO.HashMap
       EIO.HashMap.Partial
       EIO.HashSet
@@ -44,7 +63,6 @@ library
       EIO.Map.Partial
       EIO.Map.Unchecked
       EIO.Monad.Reader
-      EIO.Monad.ST
       EIO.Monad.State
       EIO.Monad.Writer
       EIO.NonEmpty
