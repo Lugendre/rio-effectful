@@ -54,8 +54,10 @@ library
     , effectful-core
     , effectful-plugin
     , effectful-th
+    , lens
     , path
     , path-io-effectful
+    , profunctors
     , rio
     , rio-log-effectful
     , unliftio
@@ -84,9 +86,11 @@ executable rio-effectful
     , effectful-core
     , effectful-plugin
     , effectful-th
+    , lens
     , optparse-simple
     , path
     , path-io-effectful
+    , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful
@@ -119,8 +123,10 @@ test-suite rio-effectful-test
     , effectful-plugin
     , effectful-th
     , hspec
+    , lens
     , path
     , path-io-effectful
+    , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful

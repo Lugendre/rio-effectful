@@ -19,12 +19,15 @@ module EIO.Prelude.Lens (
   (.~),
 ) where
 
-import Data.Monoid (First)
-import RIO hiding (preview, view)
-import RIO qualified
+import Control.Lens (foldMapOf)
+import Data.Monoid (First (..))
+import Data.Profunctor.Unsafe ((#.))
+import Effectful (Eff, type (:>))
+import Effectful.Reader.Static (Reader, asks)
+import RIO hiding (Reader, asks, preview, view)
 
-view :: (MonadReader s m) => Getting a s a -> m a
-view = RIO.view
+view :: (Reader s :> es) => Getting a s a -> Eff es a
+view l = asks (getConst #. l Const)
 
-preview :: (MonadReader s m) => Getting (First a) s a -> m (Maybe a)
-preview = RIO.preview
+preview :: (Reader s :> es) => Getting (First a) s a -> Eff es (Maybe a)
+preview l = asks (getFirst #. foldMapOf l (First #. Just))

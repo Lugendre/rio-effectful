@@ -29,8 +29,10 @@ dependencies:
 - effectful-core
 - effectful-plugin
 - effectful-th
+- lens
 - path
 - path-io-effectful
+- profunctors
 - rio
 - rio-log-effectful
 - unliftio
