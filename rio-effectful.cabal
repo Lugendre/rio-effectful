@@ -33,6 +33,7 @@ library
       EIO.ByteString.Partial
       EIO.Char
       EIO.Char.Partial
+      EIO.Deque
       EIO.Prelude.Display
       EIO.Prelude.Exit
       EIO.Prelude.Lens
@@ -68,6 +69,7 @@ library
     , rio
     , rio-log-effectful
     , unliftio
+    , vector
   default-language: GHC2021
 
 executable rio-effectful
@@ -103,6 +105,7 @@ executable rio-effectful
     , rio-effectful
     , rio-log-effectful
     , unliftio
+    , vector
   default-language: GHC2021
 
 test-suite rio-effectful-test
@@ -140,4 +143,5 @@ test-suite rio-effectful-test
     , rio-effectful
     , rio-log-effectful
     , unliftio
+    , vector
   default-language: GHC2021

@@ -37,6 +37,7 @@ dependencies:
 - rio
 - rio-log-effectful
 - unliftio
+- vector
 
 ghc-options:
 - -Wall

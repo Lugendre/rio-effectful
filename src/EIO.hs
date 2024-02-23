@@ -22,7 +22,7 @@ module EIO (
   module Effectful.Timeout,
   module Path,
   module RIO.Prelude,
-  module RIO.Deque,
+  module EIO.Deque,
   module UnliftIO.Exception,
   module UnliftIO.IORef, -- TODO: Change Ref Effect
   module UnliftIO.Memoize, -- TODO: Change Memoized Effect
@@ -30,6 +30,7 @@ module EIO (
 )
 where
 
+import EIO.Deque
 import EIO.Prelude.Display
 import EIO.Prelude.Exit
 import EIO.Prelude.Lens
@@ -49,7 +50,6 @@ import Effectful.FileSystem.Path.IO.File
 import Effectful.Log.Static
 import Effectful.Timeout
 import Path
-import RIO.Deque
 import RIO.Prelude
 import UnliftIO.Exception hiding (throwTo)
 import UnliftIO.IORef
