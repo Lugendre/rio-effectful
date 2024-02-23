@@ -27,6 +27,10 @@ source-repository head
 library
   exposed-modules:
       EIO
+      EIO.ByteString
+      EIO.ByteString.Lazy
+      EIO.ByteString.Lazy.Partial
+      EIO.ByteString.Partial
       EIO.Prelude.Display
       EIO.Prelude.Exit
       EIO.Prelude.Lens
@@ -50,6 +54,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.11 && <10
+    , bytestring
     , effectful
     , effectful-core
     , effectful-plugin
@@ -82,6 +87,7 @@ executable rio-effectful
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.11 && <10
+    , bytestring
     , effectful
     , effectful-core
     , effectful-plugin
@@ -118,6 +124,7 @@ test-suite rio-effectful-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.11 && <10
+    , bytestring
     , effectful
     , effectful-core
     , effectful-plugin
