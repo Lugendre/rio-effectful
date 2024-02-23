@@ -34,6 +34,18 @@ library
       EIO.Char
       EIO.Char.Partial
       EIO.Deque
+      EIO.HashMap
+      EIO.HashMap.Partial
+      EIO.HashSet
+      EIO.Lens
+      EIO.List
+      EIO.List.Partial
+      EIO.Map
+      EIO.Map.Partial
+      EIO.Map.Unchecked
+      EIO.NonEmpty
+      EIO.NonEmpty.Partial
+      EIO.Partial
       EIO.Prelude.Display
       EIO.Prelude.Exit
       EIO.Prelude.Lens
