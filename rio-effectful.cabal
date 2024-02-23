@@ -66,6 +66,18 @@ library
       EIO.Text.Lazy.Partial
       EIO.Text.Partial
       EIO.Time
+      EIO.Vector
+      EIO.Vector.Boxed
+      EIO.Vector.Boxed.Partial
+      EIO.Vector.Boxed.Unsafe
+      EIO.Vector.Partial
+      EIO.Vector.Storable
+      EIO.Vector.Storable.Partial
+      EIO.Vector.Storable.Unsafe
+      EIO.Vector.Unboxed
+      EIO.Vector.Unboxed.Partial
+      EIO.Vector.Unboxed.Unsafe
+      EIO.Vector.Unsafe
   other-modules:
       Paths_rio_effectful
   autogen-modules:
