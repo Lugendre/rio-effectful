@@ -6,6 +6,7 @@ module EIO (
   module EIO.Prelude.Exit,
   module EIO.Prelude.IORef,
   module EIO.Prelude.Lens,
+  module EIO.Prelude.Memoize,
   module EIO.Prelude.Trace,
   module EIO.Prelude.URef,
   module Effectful,
@@ -24,7 +25,6 @@ module EIO (
   module Path,
   module EIO.Deque,
   module UnliftIO.Exception,
-  module UnliftIO.Memoize, -- TODO: Change Memoized Effect
   EIO.Prelude.Renames.yieldThread,
 )
 where
@@ -35,6 +35,7 @@ import EIO.Prelude.Display
 import EIO.Prelude.Exit
 import EIO.Prelude.IORef
 import EIO.Prelude.Lens
+import EIO.Prelude.Memoize
 import EIO.Prelude.Renames
 import EIO.Prelude.Trace
 import EIO.Prelude.URef
@@ -53,4 +54,3 @@ import Effectful.Prim
 import Effectful.Timeout
 import Path
 import UnliftIO.Exception hiding (throwTo)
-import UnliftIO.Memoize
