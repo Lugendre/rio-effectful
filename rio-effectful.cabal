@@ -57,6 +57,14 @@ library
       EIO.Prelude.Renames
       EIO.Prelude.Trace
       EIO.Prelude.URef
+      EIO.Seq
+      EIO.Set
+      EIO.Set.Partial
+      EIO.Set.Unchecked
+      EIO.Text
+      EIO.Text.Lazy
+      EIO.Text.Lazy.Partial
+      EIO.Text.Partial
   other-modules:
       Paths_rio_effectful
   autogen-modules:
