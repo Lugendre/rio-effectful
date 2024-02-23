@@ -65,6 +65,7 @@ library
       EIO.Text.Lazy
       EIO.Text.Lazy.Partial
       EIO.Text.Partial
+      EIO.Time
   other-modules:
       Paths_rio_effectful
   autogen-modules:
