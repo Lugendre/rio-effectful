@@ -43,9 +43,14 @@ library
       EIO.Map
       EIO.Map.Partial
       EIO.Map.Unchecked
+      EIO.Monad.Reader
+      EIO.Monad.ST
+      EIO.Monad.State
+      EIO.Monad.Writer
       EIO.NonEmpty
       EIO.NonEmpty.Partial
       EIO.Partial
+      EIO.Prelude
       EIO.Prelude.Display
       EIO.Prelude.Exit
       EIO.Prelude.Lens
