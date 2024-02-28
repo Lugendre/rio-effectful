@@ -44,7 +44,8 @@ extra-deps:
 - git: https://github.com/lugendre/path-io-effectful.git
   commit: fd384dfe1d5573f7e431ff101991f1f777bbf7ae
 - git: https://github.com/lugendre/rio-log-effectful.git
-  commit: 6676aba85fe5921944474534f0597acf6f618c00
+  commit: 369879e5684b4e6720732d5ef3d8c6d34e257656
+- typed-process-effectful-1.0.0.1@sha256:a49b9b4ffb2bb1be80ad6462322ea5bb4b3819a8ba3eac2a6ca58bd0da21c92e,2078
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

@@ -77,6 +77,7 @@ library
       EIO.Prelude.Renames
       EIO.Prelude.Trace
       EIO.Prelude.URef
+      EIO.Process
       EIO.Seq
       EIO.Set
       EIO.Set.Partial
@@ -123,9 +124,13 @@ library
     , lens
     , path
     , path-io-effectful
+    , process
     , profunctors
     , rio
     , rio-log-effectful
+    , typed-process
+    , typed-process-effectful
+    , unix
     , unliftio
     , vector
   default-language: GHC2021
@@ -158,10 +163,14 @@ executable rio-effectful
     , optparse-simple
     , path
     , path-io-effectful
+    , process
     , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful
+    , typed-process
+    , typed-process-effectful
+    , unix
     , unliftio
     , vector
   default-language: GHC2021
@@ -196,10 +205,14 @@ test-suite rio-effectful-test
     , lens
     , path
     , path-io-effectful
+    , process
     , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful
+    , typed-process
+    , typed-process-effectful
+    , unix
     , unliftio
     , vector
   default-language: GHC2021

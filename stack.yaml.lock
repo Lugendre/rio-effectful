@@ -16,16 +16,23 @@ packages:
     commit: fd384dfe1d5573f7e431ff101991f1f777bbf7ae
     git: https://github.com/lugendre/path-io-effectful.git
 - completed:
-    commit: 6676aba85fe5921944474534f0597acf6f618c00
+    commit: 369879e5684b4e6720732d5ef3d8c6d34e257656
     git: https://github.com/lugendre/rio-log-effectful.git
     name: rio-log-effectful
     pantry-tree:
-      sha256: a3476e3df9c612211850ba41ccf996c925425cbb2083951a4ee96dad03c7d355
-      size: 712
+      sha256: db2786abfc55315ba1fdf5fa6eb5f53267313d026b26b0d6c474c6c49650d42f
+      size: 711
     version: 0.1.0.0
   original:
-    commit: 6676aba85fe5921944474534f0597acf6f618c00
+    commit: 369879e5684b4e6720732d5ef3d8c6d34e257656
     git: https://github.com/lugendre/rio-log-effectful.git
+- completed:
+    hackage: typed-process-effectful-1.0.0.1@sha256:a49b9b4ffb2bb1be80ad6462322ea5bb4b3819a8ba3eac2a6ca58bd0da21c92e,2078
+    pantry-tree:
+      sha256: 050366c05009fc7eca36428bab3bd58f3a065eb5767e50652480b7fbb775b871
+      size: 404
+  original:
+    hackage: typed-process-effectful-1.0.0.1@sha256:a49b9b4ffb2bb1be80ad6462322ea5bb4b3819a8ba3eac2a6ca58bd0da21c92e,2078
 snapshots:
 - completed:
     sha256: 2fdd7d3e54540062ef75ca0a73ca3a804c527dbf8a4cadafabf340e66ac4af40

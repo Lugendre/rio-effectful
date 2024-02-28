@@ -33,9 +33,13 @@ dependencies:
 - lens
 - path
 - path-io-effectful
+- process
 - profunctors
 - rio
 - rio-log-effectful
+- typed-process
+- typed-process-effectful
+- unix
 - unliftio
 - vector
 
