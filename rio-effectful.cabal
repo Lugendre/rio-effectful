@@ -124,12 +124,9 @@ library
     , lens
     , path
     , path-io-effectful
-    , process
     , profunctors
     , rio
     , rio-log-effectful
-    , typed-process
-    , typed-process-effectful
     , unix
     , unliftio
     , vector
@@ -163,13 +160,10 @@ executable rio-effectful
     , optparse-simple
     , path
     , path-io-effectful
-    , process
     , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful
-    , typed-process
-    , typed-process-effectful
     , unix
     , unliftio
     , vector
@@ -205,13 +199,10 @@ test-suite rio-effectful-test
     , lens
     , path
     , path-io-effectful
-    , process
     , profunctors
     , rio
     , rio-effectful
     , rio-log-effectful
-    , typed-process
-    , typed-process-effectful
     , unix
     , unliftio
     , vector
